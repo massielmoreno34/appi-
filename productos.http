@@ -1,0 +1,28 @@
+
+@api= http://localhost:4000/products
+
+GET {{api}}
+
+
+Post {{api}}
+content-type: application/json 
+{}
+
+GET {{api}}/5
+
+
+
+DELETE {{api}}/8
+
+GET {{api}}/count
+ 
+
+
+GET {{api}}
+Content-Type: application/json
+{
+    "nuevo_nombre": "Shampoo!",
+    "descripcion": "shampoo azul",
+    "cantidad": 10
+}
+
